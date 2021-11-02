@@ -8,11 +8,6 @@ form.addEventListener("submit", e => {
         response => response.json()
     ).then((html) => {
         // you can put any JS code here
-        window.location.assign("https://www.google.com");
+        alert('success')
     });
 });
-
-function redirect() {
-    window.location.href = "https://www.google.com";
-
-}
